@@ -1,5 +1,5 @@
 from django.shortcuts import render
-print("hello")
+print("hello django")
 import datetime
 from rest_framework import viewsets
 from django.contrib.auth.models import User
