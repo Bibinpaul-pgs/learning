@@ -43,7 +43,7 @@ class BookView(APIView):
             logger.info('inside get books')
             return Response(response, status=status.HTTP_200_OK)
         except Exception:
-            logger.error('not got into the books')
+          
             return Response(response,status=status.HTTP_400_BAD_REQUEST)
 
     def post(self, request, format=None):
