@@ -20,7 +20,7 @@ logger = logging.getLogger('django')
 
 
 """CRUD for Book """
-"testing"
+
 class BookView(APIView):
    
     permission_classes = [permissions.IsAuthenticated]
