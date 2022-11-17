@@ -1,0 +1,390 @@
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 04:37:05,583
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-11 04:37:36,190
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 04:37:36,838
+INFO basehttp "POST /testapp/student HTTP/1.1" 201 43 2022-11-11 04:37:46,515
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-11 04:41:28,267
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 04:41:28,957
+INFO basehttp "POST /testapp/student HTTP/1.1" 201 170 2022-11-11 04:41:31,977
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-11 04:41:57,417
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 04:41:58,079
+INFO basehttp "POST /testapp/student HTTP/1.1" 201 166 2022-11-11 04:42:03,460
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/models.py changed, reloading. 2022-11-11 04:47:03,219
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 04:47:03,960
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 04:47:15,105
+WARNING log Bad Request: /testapp/student 2022-11-11 04:47:18,329
+WARNING basehttp "POST /testapp/student HTTP/1.1" 400 74 2022-11-11 04:47:18,353
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/models.py changed, reloading. 2022-11-11 05:05:42,484
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 05:05:43,134
+WARNING log Unauthorized: /library/user/search 2022-11-11 05:17:01,453
+WARNING basehttp "POST /library/user/search HTTP/1.1" 401 183 2022-11-11 05:17:01,517
+INFO basehttp "POST /library/login HTTP/1.1" 200 486 2022-11-11 05:17:04,771
+INFO views [] 2022-11-11 05:17:07,334
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 45 2022-11-11 05:17:07,361
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 05:24:19,863
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 05:24:20,573
+INFO views [] 2022-11-11 05:24:24,485
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 45 2022-11-11 05:24:24,497
+INFO views [] 2022-11-11 05:24:27,184
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 45 2022-11-11 05:24:27,202
+INFO views [] 2022-11-11 05:24:34,028
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 45 2022-11-11 05:24:34,058
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 05:24:44,877
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 05:24:45,596
+INFO views ['Wings of Fire'] 2022-11-11 05:24:49,822
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 69 2022-11-11 05:24:49,844
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 05:25:45,334
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 05:25:46,001
+INFO basehttp "POST /testapp/student HTTP/1.1" 201 161 2022-11-11 05:30:09,620
+WARNING log Method Not Allowed: /testapp/student 2022-11-11 05:30:22,549
+WARNING basehttp "GET /testapp/student HTTP/1.1" 405 40 2022-11-11 05:30:22,588
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-11 05:30:57,462
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 05:30:58,115
+INFO basehttp "GET /testapp/student HTTP/1.1" 200 417 2022-11-11 05:31:02,340
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-11 05:33:04,956
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 05:33:05,626
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-11 05:33:44,667
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 05:33:45,343
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-11 05:34:02,297
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 05:34:02,960
+INFO basehttp "GET /testapp/student/1 HTTP/1.1" 200 417 2022-11-11 05:34:18,792
+INFO basehttp "PUT /testapp/student/1 HTTP/1.1" 200 78 2022-11-11 05:34:53,398
+INFO basehttp "GET /testapp/student/1 HTTP/1.1" 200 417 2022-11-11 05:35:00,415
+INFO basehttp "PUT /testapp/student/2 HTTP/1.1" 200 72 2022-11-11 05:35:36,504
+INFO basehttp "GET /testapp/student/2 HTTP/1.1" 200 417 2022-11-11 05:35:39,734
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 05:40:32,075
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 05:40:32,745
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-11 05:53:00,292
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 05:53:00,957
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-11 06:02:06,235
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 06:02:06,868
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/urls.py changed, reloading. 2022-11-11 06:06:41,811
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 06:06:42,459
+ERROR log Internal Server Error: /testapp/filter 2022-11-11 06:08:03,538
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /testapp/filter HTTP/1.1" 500 81860 2022-11-11 06:08:03,581
+INFO basehttp "POST /testapp/filter HTTP/1.1" 200 59 2022-11-11 06:08:54,284
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-11 06:09:34,276
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 06:09:34,962
+INFO basehttp "POST /testapp/filter HTTP/1.1" 200 67 2022-11-11 06:09:36,151
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 06:22:18,849
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 06:22:19,493
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-11 06:22:56,416
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 06:22:57,069
+ERROR log Internal Server Error: /library/user/filter 2022-11-11 06:23:32,172
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/filter HTTP/1.1" 500 81918 2022-11-11 06:23:32,367
+ERROR log Internal Server Error: /library/user/filter 2022-11-11 06:24:53,896
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/filter HTTP/1.1" 500 81925 2022-11-11 06:24:53,920
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 06:25:36,035
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 06:25:36,689
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 118 2022-11-11 06:25:39,200
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 06:27:33,782
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 06:27:34,539
+ERROR log Internal Server Error: /library/user/filter 2022-11-11 06:27:35,599
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+ERROR basehttp "POST /library/user/filter HTTP/1.1" 500 104273 2022-11-11 06:27:35,619
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 06:28:28,051
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 06:28:28,680
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 100 2022-11-11 06:28:33,488
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 06:28:49,014
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 06:28:49,688
+ERROR log Internal Server Error: /library/user/filter 2022-11-11 06:28:52,711
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/usr/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+ERROR basehttp "POST /library/user/filter HTTP/1.1" 500 104273 2022-11-11 06:28:52,730
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 06:31:59,290
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 06:31:59,946
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 149 2022-11-11 06:32:02,468
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 06:32:30,494
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 06:32:31,180
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 92 2022-11-11 06:32:33,837
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 06:35:12,381
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 06:35:13,047
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 100 2022-11-11 06:35:14,541
+WARNING log Unauthorized: /library/books 2022-11-11 06:52:34,080
+WARNING basehttp "GET /library/books HTTP/1.1" 401 183 2022-11-11 06:52:34,114
+WARNING log Unauthorized: /library/books 2022-11-11 06:52:42,125
+WARNING basehttp "GET /library/books HTTP/1.1" 401 183 2022-11-11 06:52:42,150
+INFO basehttp "POST /library/login HTTP/1.1" 200 486 2022-11-11 06:52:44,432
+INFO views inside get books 2022-11-11 06:52:46,517
+INFO basehttp "GET /library/books HTTP/1.1" 200 3360 2022-11-11 06:52:46,535
+INFO views ['The Great Gatsby'] 2022-11-11 06:53:16,560
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 72 2022-11-11 06:53:16,581
+INFO views [] 2022-11-11 06:53:25,887
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 45 2022-11-11 06:53:25,909
+INFO views [] 2022-11-11 06:53:50,777
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 45 2022-11-11 06:53:50,799
+INFO views [] 2022-11-11 06:54:16,388
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 45 2022-11-11 06:54:16,411
+INFO views ['Wings of Fire'] 2022-11-11 06:54:33,733
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 69 2022-11-11 06:54:33,765
+INFO views ['The Gray Man'] 2022-11-11 06:54:58,873
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 68 2022-11-11 06:54:58,899
+INFO views [] 2022-11-11 06:55:05,366
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 45 2022-11-11 06:55:05,377
+INFO views ['The Gray Man'] 2022-11-11 06:55:16,417
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 68 2022-11-11 06:55:16,434
+INFO views [] 2022-11-11 06:55:31,441
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 45 2022-11-11 06:55:31,468
+INFO views ['The Gray Man'] 2022-11-11 06:55:39,712
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 68 2022-11-11 06:55:39,738
+INFO views ['The Great Gatsby'] 2022-11-11 06:56:09,169
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 72 2022-11-11 06:56:09,196
+ERROR log Internal Server Error: /library/user/filter 2022-11-11 06:56:45,879
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/filter HTTP/1.1" 500 81925 2022-11-11 06:56:45,904
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 06:57:10,959
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 06:57:11,599
+ERROR log Internal Server Error: /library/user/filter 2022-11-11 06:57:14,676
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/filter HTTP/1.1" 500 81925 2022-11-11 06:57:14,710
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 108 2022-11-11 06:57:26,672
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 06:59:23,423
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 06:59:24,175
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 78 2022-11-11 06:59:27,429
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 93 2022-11-11 07:00:35,874
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 07:01:15,076
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 07:01:15,728
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 127 2022-11-11 07:01:17,729
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 07:01:41,181
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 07:01:41,849
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 140 2022-11-11 07:01:43,185
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 07:04:40,500
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 07:04:41,163
+ERROR views ['“2022-11-31” value has the correct format (YYYY-MM-DD) but it is an invalid date.'] 2022-11-11 07:04:50,710
+ERROR log Internal Server Error: /library/user/filter 2022-11-11 07:04:50,771
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/filter HTTP/1.1" 500 81925 2022-11-11 07:04:50,776
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 140 2022-11-11 07:05:53,317
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 219 2022-11-11 07:06:05,400
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 07:14:06,299
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 07:14:06,994
+ERROR views append() takes exactly one argument (2 given) 2022-11-11 07:14:11,497
+ERROR log Internal Server Error: /library/user/filter 2022-11-11 07:14:11,544
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/filter HTTP/1.1" 500 81925 2022-11-11 07:14:11,556
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 07:14:36,668
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 07:14:37,336
+ERROR views extend() takes exactly one argument (2 given) 2022-11-11 07:14:39,880
+ERROR log Internal Server Error: /library/user/filter 2022-11-11 07:14:39,931
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/filter HTTP/1.1" 500 81925 2022-11-11 07:14:39,946
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 07:15:25,896
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 07:15:26,591
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 443 2022-11-11 07:15:28,775
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 07:16:30,773
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 07:16:31,456
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 235 2022-11-11 07:16:33,990
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 07:16:57,914
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 07:16:58,561
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 305 2022-11-11 07:17:00,984
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 07:17:40,648
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 07:17:41,303
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 07:17:56,217
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 07:17:56,867
+ERROR views dictionary update sequence element #0 has length 16; 2 is required 2022-11-11 07:17:59,179
+ERROR log Internal Server Error: /library/user/filter 2022-11-11 07:17:59,485
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/filter HTTP/1.1" 500 81925 2022-11-11 07:17:59,563
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 07:18:22,665
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 07:18:23,381
+ERROR views name 'data_set' is not defined 2022-11-11 07:18:24,227
+ERROR log Internal Server Error: /library/user/filter 2022-11-11 07:18:24,271
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/filter HTTP/1.1" 500 81925 2022-11-11 07:18:24,280
+ERROR views name 'data_set' is not defined 2022-11-11 07:18:26,487
+ERROR log Internal Server Error: /library/user/filter 2022-11-11 07:18:26,524
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/filter HTTP/1.1" 500 81925 2022-11-11 07:18:26,528
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-11 07:18:37,401
+INFO autoreload Watching for file changes with StatReloader 2022-11-11 07:18:38,058
+INFO basehttp "POST /library/user/filter HTTP/1.1" 200 305 2022-11-11 07:18:40,424

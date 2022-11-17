@@ -1,0 +1,5 @@
+WARNING views issue failed....!!!!!! 2022-11-07 11:41:32,972 20862 140350636111616
+WARNING log Bad Request: /library/user/issue 2022-11-07 11:41:32,972 20862 140350636111616
+WARNING basehttp "POST /library/user/issue HTTP/1.1" 400 47 2022-11-07 11:41:32,972 20862 140350636111616
+INFO autoreload Watching for file changes with StatReloader 2022-11-07 11:46:54,413 21440 139947228759872
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/settings.py changed, reloading. 2022-11-08 04:10:41,332 21440 139947228759872

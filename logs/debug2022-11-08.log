@@ -1,0 +1,127 @@
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 06:14:41,078
+INFO views inside get books 2022-11-08 06:14:43,759
+INFO basehttp "GET /library/books HTTP/1.1" 200 2563 2022-11-08 06:14:43,760
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 06:58:30,741
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 113 2022-11-08 06:58:35,795
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 674 2022-11-08 07:00:25,995
+INFO basehttp "GET /admin/django_db_logger/statuslog/ HTTP/1.1" 200 15867 2022-11-08 07:00:44,110
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 07:00:44,170
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/settings.py changed, reloading. 2022-11-08 07:02:21,250
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 07:05:00,104
+WARNING log Bad Request: /library/register 2022-11-08 07:05:24,787
+WARNING basehttp "POST /library/register HTTP/1.1" 400 46 2022-11-08 07:05:24,807
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-08 07:19:08,755
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 07:19:09,412
+WARNING log Unauthorized: /library/books 2022-11-08 07:19:13,238
+WARNING basehttp "GET /library/books HTTP/1.1" 401 183 2022-11-08 07:19:13,268
+INFO basehttp "POST /library/login HTTP/1.1" 200 486 2022-11-08 07:19:15,774
+INFO basehttp "GET /library/books HTTP/1.1" 200 2563 2022-11-08 07:19:17,079
+INFO basehttp "GET /admin/django_db_logger/statuslog/ HTTP/1.1" 200 15886 2022-11-08 07:19:36,718
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 07:19:36,767
+INFO basehttp "GET /admin/django_db_logger/statuslog/?level__exact=20 HTTP/1.1" 200 16540 2022-11-08 07:19:52,687
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 07:19:52,744
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-08 07:20:28,450
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 07:20:29,314
+INFO basehttp "GET /library/books HTTP/1.1" 200 2563 2022-11-08 07:20:32,434
+INFO basehttp "GET /admin/django_db_logger/statuslog/?level__exact=20 HTTP/1.1" 200 16559 2022-11-08 07:20:47,332
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 07:20:47,391
+INFO basehttp "GET /admin/django_db_logger/statuslog/49/change/?_changelist_filters=level__exact%3D20 HTTP/1.1" 200 12079 2022-11-08 07:20:49,757
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 07:20:49,816
+INFO basehttp "GET /admin/django_db_logger/statuslog/?level__exact=20 HTTP/1.1" 200 16649 2022-11-08 07:20:52,766
+INFO basehttp "GET /admin/django_db_logger/statuslog/? HTTP/1.1" 200 16087 2022-11-08 07:20:55,621
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 07:20:55,675
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-08 07:22:05,704
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 07:22:06,375
+WARNING log Unauthorized: /library/books 2022-11-08 08:39:01,348
+WARNING basehttp "GET /library/books HTTP/1.1" 401 183 2022-11-08 08:39:01,375
+INFO basehttp "GET /admin/django_db_logger/statuslog/?level__exact=40 HTTP/1.1" 200 10559 2022-11-08 08:39:29,547
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 08:39:29,609
+INFO basehttp "GET /admin/django_db_logger/statuslog/?level__exact=10 HTTP/1.1" 200 10559 2022-11-08 08:39:31,722
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 08:39:31,812
+INFO basehttp "GET /admin/django_db_logger/statuslog/?level__exact=30 HTTP/1.1" 200 12152 2022-11-08 08:39:32,846
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 08:39:32,898
+INFO basehttp "GET /admin/django_db_logger/statuslog/?level__exact=20 HTTP/1.1" 200 15083 2022-11-08 08:39:35,166
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 08:39:35,225
+INFO basehttp "GET /admin/django_db_logger/statuslog/?level__exact=0 HTTP/1.1" 200 10558 2022-11-08 08:39:36,503
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 08:39:36,549
+INFO basehttp "GET /admin/django_db_logger/statuslog/?level__exact=50 HTTP/1.1" 200 10559 2022-11-08 08:39:38,824
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 08:39:38,900
+INFO basehttp "GET /admin/django_db_logger/statuslog/?level__exact=40 HTTP/1.1" 200 10559 2022-11-08 08:39:39,798
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 08:39:39,844
+INFO basehttp "GET /admin/django_db_logger/statuslog/?level__exact=10 HTTP/1.1" 200 10559 2022-11-08 08:39:40,471
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 08:39:40,521
+INFO basehttp "GET /admin/django_db_logger/statuslog/?level__exact=30 HTTP/1.1" 200 12152 2022-11-08 08:39:41,097
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 08:39:41,144
+INFO basehttp "GET /admin/django_db_logger/statuslog/?level__exact=20 HTTP/1.1" 200 16520 2022-11-08 08:39:41,988
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 08:39:42,049
+INFO basehttp "GET /admin/django_db_logger/statuslog/? HTTP/1.1" 200 15982 2022-11-08 08:39:48,019
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 08:39:48,082
+INFO basehttp "GET /admin/django_db_logger/statuslog/? HTTP/1.1" 200 15967 2022-11-08 08:39:54,199
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 08:39:54,243
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/settings.py changed, reloading. 2022-11-08 09:01:27,391
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 09:01:28,049
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/settings.py changed, reloading. 2022-11-08 09:01:55,377
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 09:01:56,056
+WARNING log Unauthorized: /library/books 2022-11-08 09:01:58,521
+WARNING basehttp "GET /library/books HTTP/1.1" 401 183 2022-11-08 09:01:58,551
+INFO basehttp "POST /library/login HTTP/1.1" 200 486 2022-11-08 09:02:00,876
+INFO views ['The Odyssey', 'The Iliad', 'The Gray Man', 'The Great Gatsby'] 2022-11-08 09:02:02,574
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 113 2022-11-08 09:02:02,600
+INFO views ['Wings of Fire'] 2022-11-08 09:02:51,908
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 69 2022-11-08 09:02:51,933
+INFO views ['Madame Bovary'] 2022-11-08 09:04:03,994
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 69 2022-11-08 09:04:04,018
+INFO views inside get books 2022-11-08 09:04:30,766
+INFO basehttp "GET /library/books HTTP/1.1" 200 2563 2022-11-08 09:04:30,789
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-08 09:05:36,860
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 09:05:37,521
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 674 2022-11-08 09:05:41,158
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 674 2022-11-08 09:05:59,723
+INFO views inside issue book details 2022-11-08 09:06:11,345
+INFO basehttp "GET /library/user/bookdetail/141 HTTP/1.1" 200 149 2022-11-08 09:06:11,387
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-08 09:12:40,536
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 09:12:41,225
+ERROR views inside get books 2022-11-08 09:12:44,396
+INFO basehttp "GET /library/books HTTP/1.1" 200 2563 2022-11-08 09:12:44,416
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/settings.py changed, reloading. 2022-11-08 09:14:20,285
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 09:14:20,930
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/settings.py changed, reloading. 2022-11-08 09:14:59,673
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 09:15:06,117
+INFO views ['Madame Bovary'] 2022-11-08 09:15:12,410
+INFO basehttp "POST /library/user/search HTTP/1.1" 200 69 2022-11-08 09:15:12,433
+ERROR views inside get books 2022-11-08 09:15:47,687
+INFO basehttp "GET /library/books HTTP/1.1" 200 2563 2022-11-08 09:15:47,708
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-08 09:16:06,612
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 09:16:07,294
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-08 09:16:14,961
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 09:16:15,611
+WARNING log Not Found: /library/books/ 2022-11-08 09:16:38,804
+WARNING basehttp "GET /library/books/ HTTP/1.1" 404 3494 2022-11-08 09:16:38,831
+WARNING log Unauthorized: /library/books 2022-11-08 09:17:01,285
+WARNING basehttp "GET /library/books HTTP/1.1" 401 183 2022-11-08 09:17:01,321
+INFO basehttp "POST /library/login HTTP/1.1" 200 486 2022-11-08 09:17:13,905
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-08 10:01:22,181
+INFO autoreload Watching for file changes with StatReloader 2022-11-08 10:01:22,841
+WARNING log Unauthorized: /library/books 2022-11-08 10:01:33,455
+WARNING basehttp "POST /library/books HTTP/1.1" 401 183 2022-11-08 10:01:33,486
+INFO basehttp "POST /library/login HTTP/1.1" 200 486 2022-11-08 10:01:37,206
+ERROR views failed post books 2022-11-08 10:01:39,822
+WARNING log Bad Request: /library/books 2022-11-08 10:01:39,853
+WARNING basehttp "POST /library/books HTTP/1.1" 400 47 2022-11-08 10:01:39,863
+WARNING log Not Found: /library/books/ 2022-11-08 10:02:05,972
+WARNING basehttp "POST /library/books/ HTTP/1.1" 404 3495 2022-11-08 10:02:06,004
+ERROR views failed post books 2022-11-08 10:02:11,602
+WARNING log Bad Request: /library/books 2022-11-08 10:02:11,619
+WARNING basehttp "POST /library/books HTTP/1.1" 400 47 2022-11-08 10:02:11,629
+INFO basehttp "GET /admin/django_db_logger/statuslog/? HTTP/1.1" 200 15775 2022-11-08 10:32:39,043
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 10:32:39,186
+INFO basehttp "GET /admin/django_db_logger/statuslog/?level__exact=40 HTTP/1.1" 200 12969 2022-11-08 10:32:43,422
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-08 10:32:43,574
+INFO basehttp "GET /admin/django_celery_beat/periodictask/ HTTP/1.1" 200 15773 2022-11-08 10:34:04,845
+INFO basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395 2022-11-08 10:34:05,036
+INFO basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458 2022-11-08 10:34:05,049
+INFO basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436 2022-11-08 10:34:05,058
+INFO basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560 2022-11-08 10:34:05,059
+INFO basehttp "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692 2022-11-08 10:34:05,408
+INFO basehttp "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876 2022-11-08 10:34:05,409
+INFO basehttp "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184 2022-11-08 10:34:05,464

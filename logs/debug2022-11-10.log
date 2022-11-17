@@ -1,0 +1,341 @@
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:07:31,912
+WARNING log Unauthorized: /library/books 2022-11-10 05:07:35,592
+WARNING basehttp "GET /library/books HTTP/1.1" 401 183 2022-11-10 05:07:35,620
+INFO basehttp "POST /library/login HTTP/1.1" 200 486 2022-11-10 05:07:38,406
+INFO views inside get books 2022-11-10 05:07:41,096
+INFO basehttp "GET /library/books HTTP/1.1" 200 3360 2022-11-10 05:07:41,122
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 926 2022-11-10 05:07:46,108
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/settings.py changed, reloading. 2022-11-10 05:07:59,327
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:08:00,156
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 926 2022-11-10 05:08:04,302
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/settings.py changed, reloading. 2022-11-10 05:08:27,803
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:08:28,651
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/settings.py changed, reloading. 2022-11-10 05:08:36,234
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:08:36,891
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 926 2022-11-10 05:08:38,798
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 926 2022-11-10 05:08:40,203
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 926 2022-11-10 05:08:41,127
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 926 2022-11-10 05:08:41,659
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 926 2022-11-10 05:08:42,111
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 926 2022-11-10 05:08:42,615
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 926 2022-11-10 05:08:43,013
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 926 2022-11-10 05:08:43,543
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/settings.py changed, reloading. 2022-11-10 05:09:18,622
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:09:19,317
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 986 2022-11-10 05:09:22,031
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/settings.py changed, reloading. 2022-11-10 05:09:36,464
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:09:37,114
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 926 2022-11-10 05:09:39,175
+ERROR log Internal Server Error: /library/user/issue 2022-11-10 05:22:30,856
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/issue HTTP/1.1" 500 82264 2022-11-10 05:22:30,889
+WARNING log Unauthorized: /library/user/issue 2022-11-10 05:22:49,319
+WARNING basehttp "POST /library/user/issue HTTP/1.1" 401 183 2022-11-10 05:22:49,350
+INFO basehttp "POST /library/login HTTP/1.1" 200 486 2022-11-10 05:22:53,375
+ERROR log Internal Server Error: /library/user/issue 2022-11-10 05:22:55,933
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/issue HTTP/1.1" 500 82264 2022-11-10 05:22:55,962
+WARNING views issue failed....!!!!!! 2022-11-10 05:23:31,820
+WARNING log Bad Request: /library/user/issue 2022-11-10 05:23:31,846
+WARNING basehttp "POST /library/user/issue HTTP/1.1" 400 47 2022-11-10 05:23:31,856
+WARNING views issue failed....!!!!!! 2022-11-10 05:23:39,306
+WARNING log Bad Request: /library/user/issue 2022-11-10 05:23:39,333
+WARNING basehttp "POST /library/user/issue HTTP/1.1" 400 47 2022-11-10 05:23:39,343
+INFO basehttp "POST /library/user/issue HTTP/1.1" 200 141 2022-11-10 05:23:51,409
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/settings.py changed, reloading. 2022-11-10 05:24:30,120
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:24:30,792
+WARNING views issue failed....!!!!!! 2022-11-10 05:24:40,683
+WARNING log Bad Request: /library/user/issue 2022-11-10 05:24:40,708
+WARNING basehttp "POST /library/user/issue HTTP/1.1" 400 47 2022-11-10 05:24:40,718
+INFO views inside issue book details 2022-11-10 05:24:46,859
+INFO basehttp "GET /library/user/bookdetail/149 HTTP/1.1" 200 156 2022-11-10 05:24:46,881
+INFO basehttp "POST /library/user/issue HTTP/1.1" 200 147 2022-11-10 05:25:26,478
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/models.py changed, reloading. 2022-11-10 05:30:12,691
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:30:13,361
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:31:06,928
+ERROR log Internal Server Error: /library/user/issue 2022-11-10 05:31:32,788
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/issue HTTP/1.1" 500 82263 2022-11-10 05:31:32,806
+ERROR log Internal Server Error: /library/user/issue 2022-11-10 05:32:09,949
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/issue HTTP/1.1" 500 82263 2022-11-10 05:32:09,972
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/models.py changed, reloading. 2022-11-10 05:32:16,265
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:32:16,923
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/models.py changed, reloading. 2022-11-10 05:33:13,313
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:33:13,996
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:37:20,635
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:43:17,184
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/models.py changed, reloading. 2022-11-10 05:46:03,405
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:46:04,110
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:50:58,136
+WARNING log Unauthorized: /library/user/issue 2022-11-10 05:51:05,459
+WARNING basehttp "GET /library/user/issue HTTP/1.1" 401 183 2022-11-10 05:51:05,488
+INFO basehttp "POST /library/login HTTP/1.1" 200 486 2022-11-10 05:51:08,536
+INFO basehttp "GET /library/user/issue HTTP/1.1" 200 1164 2022-11-10 05:51:10,251
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/settings.py changed, reloading. 2022-11-10 05:51:24,967
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 05:51:26,037
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-10 06:06:45,635
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 06:06:46,355
+WARNING log Unauthorized: /library/user/issue 2022-11-10 06:06:51,794
+WARNING basehttp "POST /library/user/issue HTTP/1.1" 401 183 2022-11-10 06:06:51,822
+INFO basehttp "POST /library/login HTTP/1.1" 200 486 2022-11-10 06:07:02,941
+ERROR log Internal Server Error: /library/user/issue 2022-11-10 06:07:04,917
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/issue HTTP/1.1" 500 82263 2022-11-10 06:07:04,946
+ERROR log Internal Server Error: /library/user/issue 2022-11-10 06:07:52,847
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/issue HTTP/1.1" 500 82263 2022-11-10 06:07:52,883
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/library/views.py changed, reloading. 2022-11-10 06:08:08,961
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 06:08:09,606
+INFO basehttp "POST /library/user/issue HTTP/1.1" 200 147 2022-11-10 06:08:52,708
+ERROR log Internal Server Error: /library/user/issue 2022-11-10 06:12:36,944
+Traceback (most recent call last):
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/pearlsoft/.local/share/virtualenvs/Task-nRL4uYOH/lib/python3.8/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR basehttp "POST /library/user/issue HTTP/1.1" 500 82263 2022-11-10 06:12:36,958
+WARNING views issue failed....!!!!!! 2022-11-10 06:13:00,111
+WARNING log Bad Request: /library/user/issue 2022-11-10 06:13:00,275
+WARNING basehttp "POST /library/user/issue HTTP/1.1" 400 47 2022-11-10 06:13:00,292
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 06:44:48,715
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 06:46:13,718
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 06:46:14,423
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 06:47:57,894
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 06:47:58,588
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-10 06:49:40,558
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 06:49:41,197
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 06:50:46,025
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 06:50:46,671
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 06:51:53,551
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 06:51:54,198
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-10 06:52:13,069
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 06:52:13,733
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/serializers.py changed, reloading. 2022-11-10 06:52:19,112
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 06:52:19,765
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/models.py changed, reloading. 2022-11-10 06:52:24,078
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 06:52:24,784
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 06:52:28,082
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 06:52:28,716
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 06:52:30,969
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 06:52:31,610
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 06:55:18,317
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 06:55:18,981
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 07:00:11,195
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 07:00:12,050
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 07:05:05,388
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 07:05:06,017
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 07:17:24,829
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 07:17:25,464
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 07:17:32,884
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 07:17:33,557
+WARNING log Not Found: / 2022-11-10 07:17:37,575
+WARNING basehttp "GET / HTTP/1.1" 404 3560 2022-11-10 07:17:37,783
+WARNING log Not Found: /favicon.ico 2022-11-10 07:17:39,168
+WARNING basehttp "GET /favicon.ico HTTP/1.1" 404 3611 2022-11-10 07:17:39,255
+INFO basehttp "GET /admin/ HTTP/1.1" 200 12631 2022-11-10 07:17:43,208
+INFO basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796 2022-11-10 07:17:43,516
+INFO basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619 2022-11-10 07:17:43,517
+INFO basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380 2022-11-10 07:17:43,519
+INFO basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 20344 2022-11-10 07:17:43,556
+INFO basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854 2022-11-10 07:17:43,557
+INFO basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0 2022-11-10 07:17:43,809
+INFO basehttp "GET /static/admin/css/fonts.css HTTP/1.1" 200 423 2022-11-10 07:17:43,940
+INFO basehttp "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876 2022-11-10 07:17:44,091
+INFO basehttp "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692 2022-11-10 07:17:44,094
+INFO basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0 2022-11-10 07:17:44,145
+INFO basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0 2022-11-10 07:17:44,145
+INFO basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0 2022-11-10 07:17:44,146
+INFO basehttp "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184 2022-11-10 07:17:44,151
+INFO basehttp "GET /admin/django_db_logger/statuslog/ HTTP/1.1" 200 16083 2022-11-10 07:17:59,209
+INFO basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 966 2022-11-10 07:17:59,330
+INFO basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347 2022-11-10 07:17:59,330
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-10 07:17:59,404
+INFO basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0 2022-11-10 07:17:59,715
+INFO basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0 2022-11-10 07:17:59,747
+INFO basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0 2022-11-10 07:17:59,828
+INFO basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0 2022-11-10 07:17:59,884
+INFO basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0 2022-11-10 07:17:59,891
+INFO basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0 2022-11-10 07:17:59,988
+INFO basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0 2022-11-10 07:18:00,083
+INFO basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0 2022-11-10 07:18:00,290
+INFO basehttp "GET /admin/ HTTP/1.1" 200 12631 2022-11-10 07:18:02,154
+INFO basehttp "GET /admin/auth/group/ HTTP/1.1" 200 9524 2022-11-10 07:18:57,938
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-10 07:18:58,055
+INFO basehttp "GET /admin/ HTTP/1.1" 200 12631 2022-11-10 07:19:00,229
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 07:20:25,117
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/models.py changed, reloading. 2022-11-10 07:20:53,600
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 07:20:54,292
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 07:21:10,529
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 07:21:27,510
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 07:21:28,154
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 07:23:32,206
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 07:23:32,842
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 07:23:52,743
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 07:23:53,390
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/Library_mngmnt/urls.py changed, reloading. 2022-11-10 07:27:03,992
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 07:27:04,641
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/urls.py changed, reloading. 2022-11-10 07:27:08,020
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 07:27:08,692
+INFO basehttp "GET /testapp/student HTTP/1.1" 200 2 2022-11-10 07:28:13,405
+WARNING log Bad Request: /testapp/student 2022-11-10 07:28:18,536
+WARNING basehttp "POST /testapp/student HTTP/1.1" 400 147 2022-11-10 07:28:18,571
+INFO basehttp "POST /testapp/student HTTP/1.1" 201 69 2022-11-10 07:29:36,967
+INFO basehttp "GET /testapp/student HTTP/1.1" 200 71 2022-11-10 07:29:41,137
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-10 08:41:19,039
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 08:41:19,685
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-10 08:46:06,241
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 08:46:06,902
+WARNING log Not Found: /testapp/student/1 2022-11-10 08:46:16,646
+WARNING basehttp "GET /testapp/student/1 HTTP/1.1" 404 3791 2022-11-10 08:46:16,677
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/urls.py changed, reloading. 2022-11-10 08:46:29,034
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 08:46:29,720
+INFO basehttp "GET /testapp/student/1 HTTP/1.1" 200 71 2022-11-10 08:46:32,210
+INFO basehttp "POST /testapp/student HTTP/1.1" 201 69 2022-11-10 08:51:01,071
+INFO basehttp "GET /testapp/student HTTP/1.1" 200 141 2022-11-10 08:51:04,692
+INFO basehttp "GET /testapp/student/2 HTTP/1.1" 200 141 2022-11-10 08:51:11,699
+INFO basehttp "PUT /testapp/student/2 HTTP/1.1" 200 63 2022-11-10 08:51:30,619
+INFO basehttp "GET /testapp/student HTTP/1.1" 200 135 2022-11-10 08:51:43,290
+INFO basehttp "GET /admin/ HTTP/1.1" 200 12631 2022-11-10 08:56:59,705
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/admin.py changed, reloading. 2022-11-10 08:58:04,484
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 08:58:05,144
+INFO basehttp "GET /admin/ HTTP/1.1" 200 13291 2022-11-10 08:58:08,683
+INFO basehttp "GET /admin/ HTTP/1.1" 200 13291 2022-11-10 08:58:12,072
+INFO basehttp "GET /admin/testapp/student/ HTTP/1.1" 200 11112 2022-11-10 08:58:14,721
+INFO basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343 2022-11-10 08:58:14,784
+INFO basehttp "GET /testapp/student/1 HTTP/1.1" 200 135 2022-11-10 09:02:17,723
+WARNING log Not Found: /testapp/student/1/ 2022-11-10 09:02:23,356
+WARNING basehttp "GET /testapp/student/1/ HTTP/1.1" 404 3967 2022-11-10 09:02:23,388
+INFO basehttp "GET /testapp/student/1 HTTP/1.1" 200 135 2022-11-10 09:02:29,296
+INFO basehttp "GET /testapp/student/2 HTTP/1.1" 200 135 2022-11-10 09:02:53,599
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-10 09:06:31,716
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 09:06:32,359
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-10 09:07:12,268
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 09:07:12,926
+INFO basehttp "GET /testapp/student/2 HTTP/1.1" 200 63 2022-11-10 09:07:15,873
+INFO basehttp "POST /testapp/student HTTP/1.1" 201 66 2022-11-10 09:11:56,354
+INFO basehttp "DELETE /testapp/student/3 HTTP/1.1" 204 0 2022-11-10 09:12:04,715
+INFO basehttp "GET /testapp/student HTTP/1.1" 200 135 2022-11-10 09:12:09,914
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-10 09:17:03,675
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 09:17:04,397
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/urls.py changed, reloading. 2022-11-10 09:19:33,948
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 09:19:34,590
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/models.py changed, reloading. 2022-11-10 09:43:17,286
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 09:43:18,281
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 09:43:54,204
+INFO basehttp "GET /testapp/student HTTP/1.1" 200 153 2022-11-10 09:44:01,394
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/serializers.py changed, reloading. 2022-11-10 09:56:56,100
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 09:56:56,763
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/serializers.py changed, reloading. 2022-11-10 09:58:01,706
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 09:58:02,401
+WARNING log Bad Request: /testapp/student 2022-11-10 09:58:44,350
+WARNING basehttp "POST /testapp/student HTTP/1.1" 400 35 2022-11-10 09:58:44,391
+INFO basehttp "POST /testapp/student HTTP/1.1" 201 80 2022-11-10 09:58:51,838
+INFO basehttp "GET /testapp/student HTTP/1.1" 200 234 2022-11-10 10:13:39,472
+WARNING log Bad Request: /testapp/student 2022-11-10 10:14:58,451
+WARNING basehttp "POST /testapp/student HTTP/1.1" 400 35 2022-11-10 10:14:58,491
+INFO basehttp "POST /testapp/student HTTP/1.1" 201 93 2022-11-10 10:15:02,326
+INFO basehttp "GET /testapp/student HTTP/1.1" 200 328 2022-11-10 10:15:06,064
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-10 11:15:31,589
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 11:15:32,316
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-10 11:16:08,017
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 11:16:08,682
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-10 11:17:39,654
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 11:17:40,312
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-10 11:18:03,537
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 11:18:04,187
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-10 11:19:50,485
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 11:19:51,163
+INFO autoreload /home/pearlsoft/Documents/Task/Library_mngmnt/testapp/views.py changed, reloading. 2022-11-10 11:19:53,554
+INFO autoreload Watching for file changes with StatReloader 2022-11-10 11:19:54,396
+WARNING log Method Not Allowed: /testapp/student 2022-11-10 11:19:57,840
+WARNING basehttp "GET /testapp/student HTTP/1.1" 405 40 2022-11-10 11:19:57,860
+WARNING log Method Not Allowed: /testapp/student 2022-11-10 11:24:44,231
+WARNING basehttp "POST /testapp/student HTTP/1.1" 405 41 2022-11-10 11:24:44,265
