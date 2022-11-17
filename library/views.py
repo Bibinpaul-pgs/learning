@@ -38,7 +38,7 @@ class BookView(APIView):
 
             response["status"] = status.HTTP_200_OK
             response["data"] = serializer.data
-            response["message"] = 'Books Fetched Succesfully'
+            response["message"] = 'Books are Fetched Succesfully'
             
             logger.info('inside get books')
             return Response(response, status=status.HTTP_200_OK)
