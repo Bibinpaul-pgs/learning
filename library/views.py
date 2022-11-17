@@ -105,6 +105,7 @@ class UserRegistrationView(APIView):
             response["status"] = status.HTTP_201_CREATED
             response["data"] = serializer.data
             response["message"] = 'Users Fetched Successfully'
+            print("testing demo")
             return Response(response, status=status.HTTP_200_OK)
         except Exception as error:
             return Response(response, status=status.HTTP_400_BAD_REQUEST)
